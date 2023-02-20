@@ -1,0 +1,560 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .modal {
+        width: 98%;
+        left: 1%;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .modal-xl{
+    max-width: 98%;
+}
+    .top_com__1 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+.parent_tab .top_com__1 {
+    max-width: 600px;
+}
+    
+    .top_com__1 h4 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .table__com table {
+        width: 1001px;
+        overflow: auto;
+    }
+    
+    .table__com {
+        overflow: auto;
+    }
+    .comp__dash_parent_tab {
+        width: 100%;
+    }
+
+.comp__dash_parent_tab li {
+    margin-bottom: 10px;
+    width: 32%;
+}
+
+.comp__dash_parent_tab li button span {font-size: 16px;}
+.parent_tab_wrp {
+    max-width: 615px;
+}
+.tab__com > ul li {
+    width: 30%;
+}
+.ActivityHistory__times li {
+    margin-bottom: 15px;
+}
+.Profile_Notifi_tab .switch_text {
+    max-width: 370px;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .modal-xl{
+        max-width: 98%;
+    }
+        .top_com__1 {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+    
+    .parent_tab .top_com__1 {
+        max-width: 340px;
+    }
+        
+        .top_com__1 h4 {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .table__com table {
+            width: 1001px;
+            /* overflow: auto; */
+        }
+        
+        .table__com {
+            overflow: auto;
+        }
+        .comp__dash_parent_tab {
+            width: 100%;
+        }
+    
+    .comp__dash_parent_tab li {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .comp__dash_parent_tab li button span {font-size: 16px;}
+    .parent_tab_wrp {
+        max-width: 390px;
+    }
+    .src_bar {
+        margin-bottom: 10px;
+    }
+    
+    .calender {
+        margin-bottom: 10px;
+    }
+    .comp__dash {
+        flex-direction: column;
+    }
+    
+    
+    .comp__dash_blk {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .parent_tab_wrp .pagi__com__wrp {flex-direction: column;justify-content: start;text-align: left;align-items: self-end;}
+
+.parent_tab_wrp .pagi__com__wrp .pagi__nav {
+    margin: 10px 0;
+}
+.Test_radio_blk {
+    flex-direction: column;
+}
+
+.Test_radio_blk .input_blk {
+    margin-top: 15px;
+}
+.header-area {
+    padding: 15px 0;
+} 
+.tab__com > ul li {
+    width: 100%;
+    text-align: center;
+}
+
+ul#pills-tab {}
+
+.tab__com > ul li button {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.input_extra a {
+    font-size: 12px;
+}
+
+.input_hlaf {
+    width: 100%;
+}
+
+.student__form {
+    padding-right: 0;
+}
+ul.ActivityHistory__times li {
+    margin-bottom: 20px;
+}
+.Invoice_left .Discount_total {
+    margin-top: 20px;
+    width: 680px;
+}
+.Invoice-Area .solid_bg {
+    padding-right: 30px;
+}
+
+.Discount__table {
+    width: 680px;
+}
+
+.Discount_wrp {
+    overflow: auto;
+    max-width: 401px;
+}
+
+.Invoice_left {
+    margin-right: 30px;
+}
+section.student_profile .sec_title {
+    flex-wrap: wrap;
+}
+
+section.student_profile .sec_title h4.title {
+    margin-bottom: 20px;
+}
+.Billing_modal_conent {
+    margin-bottom: 0;
+}
+
+.Billing_modal  .modal-header {
+    padding: 0rem;
+}
+.Profile_Notifi_tab .switch_text {
+    max-width: 200px;
+}
+.Profile_Notifi_button {
+    padding: 15px;
+}
+}
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .modal-xl{
+        max-width: 98%;
+    }
+        .top_com__1 {
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            max-width: 400px;
+        }
+    
+    .parent_tab .top_com__1 {
+        max-width: 340px;
+    }
+        
+        .top_com__1 h4 {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .table__com table {
+            width: 1001px;
+            overflow: auto;
+        }
+        
+        .table__com {
+            overflow: auto;
+        }
+        .comp__dash_parent_tab {
+            width: 100%;
+        }
+    
+    .comp__dash_parent_tab li {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .comp__dash_parent_tab li button span {font-size: 16px;}
+    .parent_tab_wrp {
+        max-width: 390px;
+    }
+    .src_bar {
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        max-width: 100%;
+    }
+    
+    .calender {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+.course__multi__select {
+    margin-bottom: 10px;
+}
+    .comp__dash {
+        flex-direction: column;
+    }
+    
+    
+    .comp__dash_blk {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+ .pagi__com__wrp {flex-direction: column;justify-content: start;text-align: left;align-items: self-end;}
+
+ .pagi__com__wrp .pagi__nav {
+    margin: 10px 0;
+}
+.Test_radio_blk {
+    flex-direction: column;
+}
+
+.Test_radio_blk .input_blk {
+    margin-top: 15px;
+}
+.header-area {
+    padding: 15px 0;
+} 
+.parent_Wrp_top {
+    flex-direction: column;
+    justify-content: center;
+}
+
+a.add_stu {
+    margin: auto;
+}
+
+.Parents_select {
+    width: 100%;
+    min-width: 100%;
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+}
+.student_profile_wrp {
+    flex-direction: column;
+}
+
+.student_info {
+    width: 100%;
+}
+
+.student_profile_wrp .tab__com {
+    width: 100%;
+}
+.input_hlaf {
+    width: 100%;
+}
+
+.acc_flex_item {
+    flex-wrap: wrap;
+}
+ul.ActivityHistory__times li {
+    margin-bottom: 15px;
+}
+
+.ActivityHistory__times h5 {
+    font-size: 16px;
+}
+
+.sec_title {
+    flex-direction: column;
+}
+
+.Add_new_parent_input label {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Add_new_parent_input .input_blk {
+    flex-direction: column;
+    text-align: left;
+}
+.secton_nav {
+    margin-top: 20px;
+}
+
+.secton_nav ul {
+    max-width: 319px;
+    justify-content: center;
+}
+.Notifications_blk {
+    margin-top: 30px;
+}
+.modal-content {
+    max-width: 350px;
+    margin: auto;
+}
+
+h3.modal_title {
+    font-size: 18px;
+}
+
+.modal-footer {
+    padding: 18px 16px;
+}
+
+.modal-header {}
+.tab__com > ul li  {
+    width: 100%;
+}
+.tab__com > ul li button {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.save__delet {
+    flex-direction: column;
+}
+
+.delet_blk {
+    margin-bottom: 16px;
+}
+.student__form {
+    padding-right: 0;
+}
+
+.input_extra a {
+    font-size: 14px;
+}
+.Add__Student_wrp.modal_body_bdr {
+    flex-direction: column;
+}
+h3.title {
+    font-size: 20px;
+}
+
+.Add__Student_tab_btn {
+    border: none;
+    padding-bottom: 0;
+}
+.login_form {
+    padding: 0 20px;
+}
+.reset_left img {
+    width: 100%;
+    max-width: 75px;
+}
+
+section.reset-passwod {
+    flex-direction: column;
+    height: auto;
+}
+
+.reset_left {
+    width: 100%;
+}
+
+.reset_right {
+    width: 100%;
+}
+
+section.reset-passwod {
+    background: var(--thmColor);
+    color: #fff !important;
+    padding: 20px;
+}
+
+a.ContactUs {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.reset_left span img {
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+section.reset-passwod .input_blk small {
+    color: #fff;
+}
+
+.reset_right p {
+    color: #fff;
+}
+
+.reset_right h3.modal_title {
+    color: #fff;
+}
+
+.reset_left p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+a.Reset_btn {
+    background: #fff !important;
+    color: var(--thmColor) !important;
+}
+.widget_blk {
+    width: 100%;
+}
+
+.Activity_blk ul li > h6 span {
+    margin-bottom: 10px;
+}
+
+.Activity_blk ul li > p {
+    width: 100%;
+}
+
+.Activity_blk {
+    max-width: 300px;
+    width: 100%;
+}
+
+.Activity_blk .star_list {
+    flex-wrap: wrap;
+}
+
+.Activity_blk .star_list li {
+    margin-bottom: 10px;
+}
+.Invoice_left .Discount_total {
+    margin-top: 20px;
+    width: 680px;
+}
+.Invoice-Area .solid_bg {
+    padding-right: 30px;
+}
+
+.Discount__table {
+    width: 680px;
+}
+
+.Discount_wrp {
+    overflow: auto;
+    max-width: 401px;
+    margin-top: 0px;
+}
+
+.Invoice_left {
+    margin-right: 0;
+    margin-top: -50px;
+}
+.Invoice_right {
+    height: auto;
+    margin-top: 13px;
+}
+
+.Invoice_wrp {
+    flex-direction: column;
+}
+.Invoice_info_wrp {
+    flex-direction: column;
+}
+.modal__button button, .modal__button a {
+    font-size: 13px;
+    padding: 12px 15px;
+}
+.Billing_blk {
+    flex-direction: column;
+}
+
+.Billing_blk_right {
+    margin-top: 25px;
+}
+.Billing_modal_conent {
+    margin-bottom: 0;
+}
+
+.Billing_modal  .modal-header {
+    padding: 0rem;
+}
+.Profile_Notifi_tab .d-flex.align-items-start {
+    flex-direction: column;
+}
+
+.Profile_Notifi_button {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Profile_Notifi_tab .Notifications_blk {
+    width: 549px;
+}
+
+.Profile_Notifi_tab .switch_text {
+    max-width: 300px;
+}
+.select__box.admin_select {
+    width: 100%;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

@@ -1,0 +1,525 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Admin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-6">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block text-right">
+                    <div class="header_right">
+                        <ul>
+                            <li>
+                                <div class="header_right_blk hr_user">
+                                    <a href="#">
+                                        <p>
+                                            <span>Courtney</span>
+                                            Super Admin
+                                        </p>
+                                        <i>
+                                            C
+                                        </i>
+                                    </a>
+                                </div>
+                                <div class="hr_user_menu">
+                                    <a href="#">Account Settings</a>
+                                    <a href="#">Billing History</a>
+                                    <a href="#">Log Out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 d-none d-lg-block text-right">
+                    <div class="menu-area">
+                        <nav>
+                            <ul id="nav">
+                                <li><a href="#">Analytics Dashboard</a></li>     
+                                <li><a href="#" class="active">Users</a></li>    
+                                <li><a href="#">Courses</a></li>     
+                                <li><a href="#">Billing History</a></li>     
+                                <li><a href="#">Reports</a></li>     
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-6 d-block d-lg-none text-center">
+                    <div class="bar">
+                        <a class="bar-icon siteBar-btn" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- mobile-menu START -->
+        <div class="mobile-menu">
+            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+            </svg></a> 
+
+            <div class="header_right_blk hr_user">
+                <a href="#">
+                    <p>
+                        <span>Courtney</span>
+                        Super Admin
+                    </p>
+                    <i>
+                        C
+                    </i>
+                </a>
+            </div>
+            <nav>
+                <ul id="nav">
+                    <li><a href="#">Analytics Dashboard</a></li>     
+                    <li><a href="#" class="active">Users</a></li>    
+                    <li><a href="#">Courses</a></li>     
+                    <li><a href="#">Billing History</a></li>     
+                    <li><a href="#">Reports</a></li>     
+                </ul>
+            </nav>
+        </div> 
+    <!-- header-area END -->
+
+    <div class="sub_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="">
+                        <ul class="com__nav__1">
+                            <li><a href="#" >Students</a></li>
+                            <li><a href="#" class="active">Parents</a></li>
+                            <li><a href="#">Admins</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        
+
+        <!---------user_student Section START ---------->
+        <section class="parent_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="solid_bg parent_Wrp">
+                            <div class="parent_Wrp_top">
+                                <div class="top_com__1 ">
+                                    <h4 class="title">Students (7,300)</h4>
+                                    <div class="src_bar mx-3">
+                                        <a href="#"><i class="fal fa-search"></i></a>
+                                        <input type="text" placeholder="Search">
+                                    </div>
+                                    <div class="calender">
+                                        <input type="date">
+                                    </div>
+                                    <div class="select__box mb-0 Parents_select mx-3">
+                                        <select class="select__Six wide offColor_select" >
+                                            <option data-display="All Roles">All Roles</option>
+                                            <option value="1">Admin</option>
+                                            <option value="2">Super Admin</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <a href="#" class="thm_btn add_stu" data-bs-toggle="modal" data-bs-target="#Add__Student">Add Admin <i class="fal fa-plus plus"></i></a>
+                            </div>
+                            
+                            <div class="pagi__com__wrp d-flex align-items-center my-4">
+                                <div class="pagi__total">
+                                    <p>1 - 100 of 7300</p>
+                                </div>
+                                <div class="pagi__nav mx-4">
+                                    <a href="#" class="pg__prev"><i class="fal fa-angle-left"></i></a>
+                                    <ul>
+                                        <li><a href="#" class="active">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">...</a></li>
+                                        <li><a href="#">72</a></li>
+                                        <li><a href="#">73</a></li>
+                                    </ul>
+                                    <a href="#" class="pg__next"><i class="fal fa-angle-right"></i></a>
+                                </div>
+                                <div class="pagi__jump">
+                                    <span>Jump to</span>
+                                    <input type="text" value="1">
+                                </div>
+                            </div>
+                            <div class="table__com Parents_table">
+                                <table class="table table-responsive-lg">
+                                    <thead class="">
+                                        <tr class="table_head">
+                                            <th scope="col">
+                                                <span>
+                                                    USER Name
+                                                    <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                </span>
+                                            </th>
+                                            <th scope="col">
+                                                <span>
+                                                    Role
+                                                </span>
+                                            </th>
+                                            <th scope="col">
+                                                <span>
+                                                    date Registered
+                                                    <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                </span>
+                                            </th>
+                                            <th scope="col">
+                                                <span>
+                                                    Action
+                                                </span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+
+                                   <div class="table__com__tbody">
+                                        <tbody>
+                                            
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_U">Super Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_U">Super Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater avatar_Text">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="">
+                                                            <h6>Marvin Simmons</h6>
+                                                            <span>exmplm@example.com</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td>
+                                                    <div class="tb__course_btn">
+                                                        <a href="#" class="ISEE_M"> Admin</a>
+                                                    </div>
+                                                </td>
+                                                <td class="tb_date">
+                                                    <p>March 17, 2022</p>
+                                                </td>
+                                                <td>
+                                                    <div class="tb_action">
+                                                        <a href="#" class="edit_btn"><i class="fad fa-edit"></i></a>
+                                                        <a href="#" class="delet_btn" data-bs-toggle="modal" data-bs-target="#deletStudentProfile"><i class="fas fa-trash"></i></a>
+                                                        <a href="#" class="text_btn">Profile</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                   </div>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------user_student Section End ---------->
+
+
+        <!--deletStudentProfile Modal -->
+        <div class="modal fade deletStudentProfile" id="deletStudentProfile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content dst_modal">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Delete student profile</h5>
+                </div>
+
+                <div class="modal-body">
+                <p>Are you sure you want to delete this student profile?</p>
+                </div>
+
+                <div class="modal-footer delet_stu_btn modal__button">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" id="Delete" data-bs-dismiss="modal" class="btn   remove_btn">Delete</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--deletStudentProfile Modal -->
+
+
+
+
+        <!-- Delete Alart -->
+        <div class="delet_alart active d-none">
+            <p><i class="fas fa-check-circle"></i> Student profile deleted</p>
+        </div>
+        <!-- Delete Alart -->
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

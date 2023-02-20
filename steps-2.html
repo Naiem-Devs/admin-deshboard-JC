@@ -1,0 +1,842 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>User Student</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <style>
+            .tab {
+                display: none
+            }
+        </style>
+    </head>
+    <body>
+
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ssss">Clidk</button>
+
+        <!--Add Student Modal -->
+        <div class="modal fade Add__Student" id="ssss" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content ">
+
+                <div class="modal-header">
+                    <h3 class="modal_title" id="exampleModalLabel">Adding a Student</h3>
+                </div>
+
+                <div class="">
+                    <div class="d-flex Add__Student_wrp modal_body_bdr">
+                        <div class="nav flex-column all-steps  Add__Student_tab_btn" id="all-steps" >
+                            <button class="nav-link step active"  type="button" >
+                                <i>
+                                    1
+                                </i>
+                                <p>
+                                    Course & Plan <br>
+                                    <span>Set Type of a Test & Membership </span>
+                                </p>
+                            </button>
+
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    2
+                                </i>
+                                <p>
+                                    Account Settings <br>
+                                    <span>Setup Student Account Settings</span>
+                                </p>
+                            </button>
+                            
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    3
+                                </i>
+                                <p>
+                                    Parent Information <br>
+                                    <span>Assign Or Add a Parent</span>
+                                </p>
+                            </button>
+
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    4
+                                </i>
+                                <p>
+                                    School Information <br>
+                                    <span>Student’s School Related Info</span>
+                                </p>
+                            </button>
+
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    5
+                                </i>
+                                <p>
+                                    Test Information <br>
+                                    <span>Set Test Info</span>
+                                </p>
+                            </button>
+                            
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    6
+                                </i>
+                                <p>
+                                    Summary <br>
+                                    <span>Review and Confirm</span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="tab-content Add__Student_tab_content" >
+
+                            <div class=" tab  " >
+                                <div class="course_plan_tab">
+
+                                    <h3 class="modal_title">Course & Plan</h3>
+
+                                    <div class="comp__dash__wrp">
+                                        <span>What test is the student purchasing?</span>
+                                        <div class="comp__dash com__dash3">
+                                            <div class="comp__dash_blk ">
+                                                <span>ISEE</span>
+                                            </div>
+                                            <div class="comp__dash_blk active">
+                                                <span>SSAT</span>
+                                            </div>
+                                            <div class="comp__dash_blk">
+                                                <span>SHSAT</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comp__dash__wrp">
+                                        <span>What level of the test student plan to take?</span>
+                                        <div class="comp__dash com__dash2">
+                                            <div class="comp__dash_blk active">
+                                                <span>Middle (5-7th Grade)</span>
+                                            </div>
+                                            <div class="comp__dash_blk">
+                                                <span>Upper (8-11th Grade)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comp__dash__wrp">
+                                        <span>Type of membership?</span>
+                                        <div class="comp__dash com__dash2">
+                                            <div class="comp__dash_blk  offColor">
+                                                <span>Pay Monthly</span>
+                                            </div>
+                                            <div class="comp__dash_blk offColor">
+                                                <span>Pay Yearly</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="comp__dash__wrp">
+                                        <span>Type of a plan?</span>
+                                        <div class="comp__dash com__dash2">
+
+                                            <div class="comp__dash_blk active">
+                                                <div class="type_plane">
+                                                    <span>Free</span>
+                                                    <small>Best for self-preparation</small>
+                                                    <div class="d-flex justify-content-center align-items-end"><h1><small>$</small>0</h1><p>/mon</p></div>
+                                                    <ul>
+                                                        <li>Skill Practice <i class="fad fa-check-circle"></i></li>
+                                                        <li>Practice Tests <i class="fad fa-check-circle"></i></li>
+                                                        <li class="offColor">Feature <i class="fad fa-times-circle"></i></li>
+                                                        <li class="offColor">Feature <i class="fad fa-times-circle"></i></li>
+                                                        <li class="offColor">Feature <i class="fad fa-times-circle"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="comp__dash_blk ">
+                                                <div class="type_plane">
+                                                    <span>App</span>
+                                                    <small>Best for self-preparation</small>
+                                                    <div class="d-flex justify-content-center align-items-end"><h1><small>$</small>20</h1><p>/mon</p></div>
+                                                    <ul>
+                                                        <li>Skill Practice <i class="fad fa-check-circle"></i></li>
+                                                        <li>Practice Tests <i class="fad fa-check-circle"></i></li>
+                                                        <li>Feature <i class="fad fa-check-circle"></i></li>
+                                                        <li>Feature <i class="fad fa-check-circle"></i></li>
+                                                        <li>Feature <i class="fad fa-check-circle"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class=" tab">
+                                <div class="Account_Settings_tab">
+                                    <h3 class="title">Account Settings</h3>
+                                    <span class="input_title">Student Personal  Info</span>
+                                    <div class="stu_Avatar">
+                                        <i class="cg_avatar avatar_Text ">
+                                            <span>K</span>
+                                        </i>
+                                        <a href="#">Select Avatar</a>
+                                    </div>
+                                    <div class="acc_flex_item">
+                                        <div class="input_blk input_hlaf">
+                                            <label for="">First name</label>
+                                            <input type="text" placeholder="">
+                                        </div>
+                                        <div class="input_blk input_hlaf">
+                                            <label for="">Last name</label>
+                                            <input type="text" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="input_blk ">
+                                        <label for="">Email</label>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                    <div class="input_extra">
+                                        <span class="input_title">Password</span>
+                                        <small>Students' password can be changed by a linked parent or by admin manually</small>
+                                    </div>
+                                    <div class="input_blk ">
+                                        <label for="">Password</label>
+                                        <input type="text" placeholder="">
+                                        <small class="text-center">8+ characters, with min. one number, one uppercase letter and one special character</small>
+                                    </div>
+                                    <div class="input_blk ">
+                                        <label for="">Repeat password</label>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                    <div class="input_extra">
+                                        <a href="#" class="reset__password"><i><img src="assets/img/locksh.svg" alt=""></i> Generate Password</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" tab">
+                                <div class="parent_tab">
+                                    <h3 class="title">Parent Information</h3>
+                                    <div class="comp__dash__wrp">
+                                        <span>Select the way of adding a parent</span>
+                                    </div>
+                                    <ul class="nav nav-pills comp__dash_parent_tab comp__dash com__dash3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                            <button class="nav-link comp__dash_blk active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span>Assign from the base</span></button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                            <button class="nav-link comp__dash_blk" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span>Add new parent</span></button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                            <button class="nav-link comp__dash_blk" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>Skip for now</span></button>
+                                            </li>
+                                      </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                <div class="parent_tab_wrp solid_bg">
+                                                    <div class="top_com__1 ">
+                                                        <h4 class="title">Parents (7,300))</h4>
+                                                        <div class="src_bar">
+                                                            <a href="#"><i class="fal fa-search"></i></a>
+                                                            <input type="text" placeholder="Search">
+                                                        </div>
+                                                        <div class="calender">
+                                                            <input type="date">
+                                                        </div>
+                                                        <div class="select__box mb-0">
+                                                            <select class="select__Five wide offColor_select" name="" id="">
+                                                                <option data-display="All Parents">All Parents</option>
+                                                                <option value="1">Some option</option>
+                                                                <option value="2">Another option</option>
+                                                                <option value="4">Potato</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pagi__com__wrp d-flex align-items-center my-4">
+                                                        <div class="pagi__total">
+                                                            <p>1 - 100 of 7300</p>
+                                                        </div>
+                                                        <div class="pagi__nav mx-4">
+                                                            <a href="#" class="pg__prev"><i class="fal fa-angle-left"></i></a>
+                                                            <ul>
+                                                                <li><a href="#" class="active">1</a></li>
+                                                                <li><a href="#">2</a></li>
+                                                                <li><a href="#">3</a></li>
+                                                                <li><a href="#">...</a></li>
+                                                                <li><a href="#">72</a></li>
+                                                                <li><a href="#">73</a></li>
+                                                            </ul>
+                                                            <a href="#" class="pg__next"><i class="fal fa-angle-right"></i></a>
+                                                        </div>
+                                                        <div class="pagi__jump">
+                                                            <span>Jump to</span>
+                                                            <input type="text" value="1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table__com parent_table">
+                                                        <table class="table table-responsive-lg">
+                                                            <thead class="">
+                                                                <tr class="table_head">
+                                                                    <th scope="col">
+                                                                        <span>
+                                                                            USER Name
+                                                                            <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                        </span>
+                                                                    </th>
+                                                                    <th scope="col">
+                                                                        <span>
+                                                                            Students
+                                                                            <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                        </span>
+                                                                    </th>
+                                                                    <th scope="col">
+                                                                        <span>
+                                                                            date Registered
+                                                                            <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                        </span>
+                                                                    </th>
+                                                                    <th scope="col">
+                                                                        <span>
+                                                                            Action
+                                                                        </span>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                        
+                                                            <tbody>
+            
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="title icon_title">
+                                                                            <i class="user__avater avatar_Text">
+                                                                                <span>M</span>
+                                                                            </i>
+                                                                            <div class="">
+                                                                                <h6>Marvin Simmons</h6>
+                                                                                <span>exmplm@example.com</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="stu_avt">
+                                                                            <div class="d-flex">
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                            </div>
+                                                                            <small>2 students</small>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="tb_date">
+                                                                        <p>March 17, 2022</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb_action">
+                                                                            <a href="#" class="text_btn">Profile</a>
+                                                                            <a href="#" class="text_btn active">Profile</a>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+            
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="title icon_title">
+                                                                            <i class="user__avater avatar_Text">
+                                                                                <span>M</span>
+                                                                            </i>
+                                                                            <div class="">
+                                                                                <h6>Marvin Simmons</h6>
+                                                                                <span>exmplm@example.com</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb__course_btn">
+                                                                            <a href="#" class="ISEE_L">No Student</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="tb_date">
+                                                                        <p>March 17, 2022</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb_action">
+                                                                            <a href="#" class="text_btn">Profile</a>
+                                                                            <a href="#" class="text_btn active">Profile</a>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+            
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="title icon_title">
+                                                                            <i class="user__avater avatar_Text">
+                                                                                <span>M</span>
+                                                                            </i>
+                                                                            <div class="">
+                                                                                <h6>Marvin Simmons</h6>
+                                                                                <span>exmplm@example.com</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="stu_avt">
+                                                                            <div class="d-flex">
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                            </div>
+                                                                            <small>2 students</small>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="tb_date">
+                                                                        <p>March 17, 2022</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb_action">
+                                                                            <a href="#" class="text_btn">Profile</a>
+                                                                            <a href="#" class="text_btn active">Profile</a>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+            
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="title icon_title">
+                                                                            <i class="user__avater avatar_Text">
+                                                                                <span>M</span>
+                                                                            </i>
+                                                                            <div class="">
+                                                                                <h6>Marvin Simmons</h6>
+                                                                                <span>exmplm@example.com</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb__course_btn">
+                                                                            <a href="#" class="ISEE_L">No Student</a>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="tb_date">
+                                                                        <p>March 17, 2022</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb_action">
+                                                                            <a href="#" class="text_btn">Profile</a>
+                                                                            <a href="#" class="text_btn active">Profile</a>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+            
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="title icon_title">
+                                                                            <i class="user__avater avatar_Text">
+                                                                                <span>M</span>
+                                                                            </i>
+                                                                            <div class="">
+                                                                                <h6>Marvin Simmons</h6>
+                                                                                <span>exmplm@example.com</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="stu_avt">
+                                                                            <div class="d-flex">
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                            </div>
+                                                                            <small>2 students</small>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="tb_date">
+                                                                        <p>March 17, 2022</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb_action">
+                                                                            <a href="#" class="text_btn">Profile</a>
+                                                                            <a href="#" class="text_btn active">Profile</a>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+            
+                                                            </tbody>
+                        
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                                <div class="Add_new_parent mxw_500">
+                                                    <span class="input_title">Student Personal  Info</span>
+                                                    <div class="stu_Avatar">
+                                                        <i class="cg_avatar avatar_Text ">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <small>Allowed *.jpeg, *.jpg, *.png, *.gif
+                                                            Max size of 3.1 MB</small>
+                                                    </div>
+
+                                                    <div class="Add_new_parent_input">
+                                                        <div class="input_blk">
+                                                            <label for="">First name</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                        <div class="input_blk">
+                                                            <label for="">Last name</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                        <div class="input_blk ">
+                                                            <label for="">Email</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                        
+                                                        <div class="input_blk ">
+                                                            <label for="">Email</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="input_extra">
+                                                        <span class="input_title">Password</span>
+                                                        <small>Students' password can be changed by a linked parent or by admin manually</small>
+                                                    </div>
+                                                    <div class="input_blk ">
+                                                        <label for="">Password</label>
+                                                        <input type="text" placeholder="">
+                                                        <small class="text-center">8+ characters, with min. one number, one uppercase letter and one special character</small>
+                                                    </div>
+                                                    <div class="input_blk ">
+                                                        <label for="">Repeat password</label>
+                                                        <input type="text" placeholder="">
+                                                    </div>
+                                                    <div class="input_extra">
+                                                        <a href="#" class="reset__password"><i><img src="assets/img/locksh.svg" alt=""></i> Generate Password</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                                <div class="Skip_for_now">
+                                                    <h4>You can assign or add parent later</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class=" tab">
+                                <div class="school_info_tab">
+                                    <h3 class="title">School Information</h3>
+                                    <div class="input_blk ">
+                                        <span class="input_title">Your current school</span>
+                                        <label for="">Current School</label>
+                                        <input type="text" >
+                                    </div>
+                                    <div class="input_blk mb-4">
+                                        <label for="">Grade</label>
+                                        <div class="select__box">
+                                            <select class="wide select__one">
+                                                <option data-display="7th">7th</option>
+                                                <option value="1">Some </option>
+                                                <option value="2">Another</option>
+                                                <option value="4">Potato</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="input_blk">
+                                        <span class="input_title">Your current school</span>
+                                        <label for="">First choice</label>
+                                        <div class="select__box">
+                                            <select class="wide select__one">
+                                                <option data-display=""></option>
+                                                <option value="1">Some </option>
+                                                <option value="2">Another</option>
+                                                <option value="4">Potato</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="input_blk">
+                                        <label for="">Second choice</label>
+                                        <div class="select__box">
+                                            <select class="wide select__one">
+                                                <option data-display=""></option>
+                                                <option value="1">Some </option>
+                                                <option value="2">Another</option>
+                                                <option value="4">Potato</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="input_blk">
+                                        <label for="">Third choice</label>
+                                        <div class="select__box">
+                                            <select class="wide select__one">
+                                                <option data-display=""></option>
+                                                <option value="1">Some </option>
+                                                <option value="2">Another</option>
+                                                <option value="4">Potato</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" tab">
+                                <div class="test-tab">
+                                    <h3 class="title">Test Information</h3>
+                                    <span class="title">Registered Official Test Date</span>
+                                    <div class="Test_radio_btn">
+                                        <div class="Test_radio_blk">
+                                            <label class="form-control-Radio" >
+                                                <input type="radio" name="radio" checked id="radio"/>
+                                                Have registered
+                                            </label>
+                                            <div class="input_blk">
+                                                <div class="select__box mb-0">
+                                                    <select class="wide select__one offColor_select">
+                                                        <option data-display="Press to choose your offical test date">Press to choose your offical test date</option>
+                                                        <option value="1">Some </option>
+                                                        <option value="2">Another</option>
+                                                        <option value="4">Potato</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <label class="form-control-Radio" >
+                                                <input type="radio" name="radio" />
+                                                Have not registered yet
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" tab">
+                                <div class="summary-tab">
+                                    <h3 class="title">Summary</h3>
+                                    
+                                    <ul>
+                                        <li><h6>Course & Plan  <a href="#">Edit</a></h6> </li>
+                                        <li>
+                                            <span>Chosen Course:</span>
+                                            <p>SSAT</p>
+                                        </li>
+                                        <li>
+                                            <span>Chosen Level:</span>
+                                            <p>Middle (5-7th Grade)</p>
+                                        </li>
+                                        <li>
+                                            <span>Plan:</span>
+                                            <p>FREE</p>
+                                        </li>
+                                    </ul>
+                                    
+                                    <ul>
+                                        <li><h6>Account Settings  <a href="#">Edit</a></h6> </li>
+                                        <li>
+                                            <span>First Name:</span>
+                                            <p>Darlene</p>
+                                        </li>
+                                        <li>
+                                            <span>Last Name:</span>
+                                            <p>Robertson</p>
+                                        </li>
+                                        <li>
+                                            <span>Email:</span>
+                                            <p>exmplm@example.com</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li><h6>Parent Information  <a href="#">Edit</a></h6> </li>
+                                        <li>
+                                            <p>Skipped for now</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li><h6>School Information  <a href="#">Edit</a></h6> </li>
+                                        <li>
+                                            <span>Current School:</span>
+                                            <p>Scholars' Academy</p>
+                                        </li>
+                                        <li>
+                                            <span>Grade:</span>
+                                            <p>7th</p>
+                                        </li>
+                                        <li>
+                                            <span>First Choice:</span>
+                                            <p>Am. Studies/Lehman</p>
+                                        </li>
+                                        <li>
+                                            <span>Second Choice:</span>
+                                            <p>Have not decided yet</p>
+                                        </li>
+                                        <li>
+                                            <span>Third Choice:</span>
+                                            <p>Have not decided yet</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li><h6>Test Information  <a href="#">Edit</a></h6> </li>
+                                        <li>
+                                            <span>Registered Official Test Date:</span>
+                                            <p>May 17, 2023</p>
+                                        </li>
+                                    </ul>
+                                    <div class="Discount_wrp">
+                                        <h6><i class="fal fa-chevron-down"></i> Discount</h6>
+                                        <div class="Discount__table">
+                                            <ul >
+                                                <li><span>Course</span></li>
+                                                <li><span>Membership</span></li>
+                                                <li><span>Plan</span></li>
+                                                <li><span>Amount</span></li>
+                                            </ul>
+                                            <ul >
+                                                <li><p>SSAT Middle</p></li>
+                                                <li><p>-</p></li>
+                                                <li><p>Free</p></li>
+                                                <li><p>$ 0.00</p></li>
+                                            </ul>
+                                        </div>
+                                        <div class="Discount_total">
+                                            <ul>
+                                                <li><span>Subtotal:</span> <p>$ 0.00</p></li>
+                                                <li><span>VAT 0%</span> <p>0.00</p></li>
+                                                <li><span>Subtotal + VAT</span> <p>$ 0.00</p></li>
+                                                <li><span>Total</span> <p>$ 0.00</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer modal__button" >
+                    <button type="button" class="btn btn-secondary" id="prevBtn" onclick="nextPrev(-1)">Cancel</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn  active">Next</button>
+                    <button type="button"  class="btn Submit_btn active">Next</button>
+
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--Add Student Modal -->
+
+
+        <!-- Delete Alart -->
+        <div class="delet_alart active d-none">
+            <p><i class="fas fa-check-circle"></i> Student profile deleted</p>
+        </div>
+        <!-- Delete Alart -->
+
+    </main>
+  
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+        <script>
+            //your javascript goes here
+                var currentTab = 0;
+                document.addEventListener("DOMContentLoaded", function(event) {
+
+
+                    showTab(currentTab);
+
+                });
+
+                function showTab(n) {
+                    var x = document.getElementsByClassName("tab");
+                    x[n].style.display = "block";
+                    if (n == 0) {
+                        document.getElementById("prevBtn").style.display = "none";
+                    } else {
+                        document.getElementById("prevBtn").style.display = "inline";
+                    }
+                    if (n == (x.length - 1)) {
+                        document.getElementById("nextBtn").innerHTML = "Submit";
+                    } else {
+                        document.getElementById("nextBtn").innerHTML = "Next";
+                    }
+                    fixStepIndicator(n)
+                }
+
+                function AddPastClass() {
+                    let steps = document.querySelectorAll('.step')
+                    let past = document.querySelectorAll('.past')
+                    if (past.length+2 === steps.length) {
+                        steps[0].parentElement.parentElement.classList.add('lastOne') 
+                    }else{
+                        steps[0].parentElement.parentElement.classList.remove('lastOne')
+                    }
+                    steps.forEach(stp => {
+                        stp.classList.remove('past')
+                    })
+                    for (let i = 0; i < steps.length; i++) {
+                        if (!steps[i].classList.contains('active')) {
+                            steps[i].classList.add('past')
+                        }else{
+                            break;
+                        }
+                        
+                    }  
+                }
+
+
+                function nextPrev(n) {
+                    var x = document.getElementsByClassName("tab");
+                    // if (n == 1 && !validateForm()) return true;
+                    x[currentTab].style.display = "none";
+                    currentTab = currentTab + n;
+                    if (currentTab == x.length) {
+                        // document.getElementById("regForm").submit();
+                        // return false;
+                        //alert("sdf");
+                        document.getElementById("nextprevious").style.display = "none";
+                        document.getElementById("all-steps").style.display = "none";
+                        document.getElementById("register").style.display = "none";
+                        // document.getElementsByClassName("Add__Student").style.display = "none";
+
+
+
+
+                    }
+                    showTab(currentTab);
+                    AddPastClass()
+                }
+
+                function fixStepIndicator(n) {
+                    var i, x = document.getElementsByClassName("step");
+                    for (i = 0; i < x.length; i++) { x[i].className = x[i].className.replace(" active", ""); }
+                    x[n].className += " active";
+                }
+        </script>
+
+    </body>
+</html>

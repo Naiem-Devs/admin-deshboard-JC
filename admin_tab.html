@@ -1,0 +1,615 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Admin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-6">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block text-right">
+                    <div class="header_right">
+                        <ul>
+                            <li>
+                                <div class="header_right_blk hr_user">
+                                    <a href="#">
+                                        <p>
+                                            <span>Courtney</span>
+                                            Super Admin
+                                        </p>
+                                        <i>
+                                            C
+                                        </i>
+                                    </a>
+                                </div>
+                                <div class="hr_user_menu">
+                                    <a href="#">Account Settings</a>
+                                    <a href="#">Billing History</a>
+                                    <a href="#">Log Out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12 d-none d-lg-block text-right">
+                    <div class="menu-area">
+                        <nav>
+                            <ul id="nav">
+                                <li><a href="#">Analytics Dashboard</a></li>     
+                                <li><a href="#" class="active">Users</a></li>    
+                                <li><a href="#">Courses</a></li>     
+                                <li><a href="#">Billing History</a></li>     
+                                <li><a href="#">Reports</a></li>     
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-6 d-block d-lg-none text-center">
+                    <div class="bar">
+                        <a class="bar-icon siteBar-btn" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- mobile-menu START -->
+        <div class="mobile-menu">
+            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+            </svg></a> 
+
+            <div class="header_right_blk hr_user">
+                <a href="#">
+                    <p>
+                        <span>Courtney</span>
+                        Super Admin
+                    </p>
+                    <i>
+                        C
+                    </i>
+                </a>
+            </div>
+            <nav>
+                <ul id="nav">
+                    <li><a href="#">Analytics Dashboard</a></li>     
+                    <li><a href="#" class="active">Users</a></li>    
+                    <li><a href="#">Courses</a></li>     
+                    <li><a href="#">Billing History</a></li>     
+                    <li><a href="#">Reports</a></li>     
+                </ul>
+            </nav>
+        </div> 
+    <!-- header-area END -->
+
+    <div class="sub_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="">
+                        <ul class="com__nav__1">
+                            <li><a href="#" >Students</a></li>
+                            <li><a href="#" class="active">Parents</a></li>
+                            <li><a href="#">Admins</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <div class="sort_nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="">
+                            <ul>
+                                <li><a href="#">Users /</a></li>
+                                <li><a href="#">Students /</a></li>
+                                <li><a href="#">Brooklyn Simmons Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <section class="admin-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="admin_content solid_bg">
+                            <div class="sec_title">
+                                <h4 class="title">Parent Profile</h4>
+                                <div class="secton_nav">
+                                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link active" id="pills-info-tab" data-bs-toggle="pill" data-bs-target="#pills-info" type="button" role="tab" aria-controls="pills-info" aria-selected="true">Parents Info</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="pills-Activity-History-tab" data-bs-toggle="pill" data-bs-target="#pills-Activity-History" type="button" role="tab" aria-controls="pills-Activity-History" aria-selected="false">Students</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">
+                                        <div class="student_profile_wrp p_info">
+                                            <div class="Add_new_parent mxw_700">
+                                                <h5 class="titleH5">Admin Personal  Info </h5>
+                                                <div class="stu_Avatar">
+                                                    <i class="cg_avatar avatar_Text ">
+                                                        <span>M</span>
+                                                    </i>
+                                                    <div class="Upload_btn_input -chosen -chosen">
+                                                        <label for="fl-2"> 
+                                                            <input type="file" class="uploadFileHereNow" value="Select Avatar" id="fl-2">
+                                                            <small>Allowed *.jpeg, *.jpg, *.png, *.gif
+                                                                Max size of 3.1 MB</small>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="Add_new_parent_input">
+                                                    <div class="input_blk">
+                                                        <label for="">First name</label>
+                                                        <input type="text" placeholder="Marvin">
+                                                    </div>
+                                                    <div class="input_blk">
+                                                        <label for="">Last name</label>
+                                                        <input type="text" placeholder="Simmons">
+                                                    </div>
+                                                    <div class="input_blk ">
+                                                        <label for="">Email</label>
+                                                        <input type="text" placeholder="exmplm@example.com">
+                                                    </div>
+                                                    <div class="input_blk ">
+                                                        <label for="">Role</label>
+                                                        <div class="select__box admin_select">
+                                                            <select class="wide select__Eight" >
+                                                                <option data-display="Admin">Admin</option>
+                                                                <option value="1">Student </option>
+                                                                <option value="2">Another</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr class="bdr_X">
+                                                <div class="input_extra">
+                                                    <h6>Change Password</h6>
+                                                    <a href="#" class="reset__password"><i class="fal fa-envelope"></i> Send link to a parent to reset password</a>
+                                                    <a href="#" class="change_M"><i class="fal fa-pen"></i> Change Manually</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="bdr_X">
+                                        <div class="save__delet">
+                                            <div class="delet_blk">
+                                                <a href="#"><i class="far fa-trash-alt"></i> Delete User Profile</a>
+                                            </div>
+                                            <div class="save_blk">
+                                                <a href="#" class="px-4">Discard</a>
+                                                <a href="#" class="thm_btn active save_btn">Save Changes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-Activity-History" role="tabpanel" aria-labelledby="pills-Activity-History-tab">
+                                        <div class="">
+                                            <ul class="ActivityHistory__times">
+                                                <li>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater bg-cl-1">
+                                                            <img src="assets/img/time.svg" alt="">
+                                                        </i>
+                                                        <div class="">
+                                                            <h5>40h:35min:57sec</h5>
+                                                            <span>Total time spent in App</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater bg-cl-2">
+                                                            <img src="assets/img/pulsh.svg" alt="">
+                                                        </i>
+                                                        <div class="">
+                                                            <h5>28min:30sec</h5>
+                                                            <span>Average time spent per session</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater bg-cl-3">
+                                                            <img src="assets/img/Equalizer.svg" alt="">
+                                                        </i>
+                                                        <div class="">
+                                                            <h5>86</h5>
+                                                            <span>Number of sessions</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="title icon_title">
+                                                        <i class="user__avater bg-cl-4">
+                                                            <img src="assets/img/calender.svg" alt="">
+                                                        </i>
+                                                        <div class="">
+                                                            <h5>Sunday March 17, 2022</h5>
+                                                            <span>Last session</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="table__com tableFixHead history_table">
+                                                <div class="table__com__tbody">
+                                                        </div><table class="table table-responsive-lg">
+                                                    <thead class="">
+                                                        <tr class="table_head">
+                                                            <th scope="col">
+                                                                <span>
+                                                                    Date
+                                                                    <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                </span>
+                                                            </th>
+                                                            <th scope="col">
+                                                                <span>
+                                                                    Time in
+                                                                    <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                </span>
+                                                            </th>
+                                                            <th scope="col">
+                                                                <span>
+                                                                    time out
+                                                                    <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                </span>
+                                                            </th>
+                                                            <th scope="col">
+                                                                <span>
+                                                                    session duration
+                                                                    <i><img src="assets/img/upDown.svg" alt=""></i>
+                                                                </span>
+                                                            </th>
+                                                            <th scope="col">
+                                                                <span>
+                                                                    Action
+                                                                </span>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                
+                                                   <tbody>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="tb_date">
+                                                                    <p>March 17, 2022</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:00 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>10:45 aM</p>
+                                                                </td>
+                                                                <td class="tb_date">
+                                                                    <p>00:45:40</p>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="tb_action">
+                                                                        <a href="#" class="text_btn" data-bs-toggle="modal" data-bs-target="#Session_Details">Details</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                   
+                
+                                                  </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+                <!--Session Details Modal -->
+                <div class="modal fade " id="Session_Details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content dst_modal">
+        
+                            <div class="modal-header">
+                                <h3 class="modal_title">Session Details</h3>
+                                <a href="#" class="modal_close" data-bs-dismiss="modal">
+                                    <i class="far fa-times"></i>
+                                </a>
+                            </div>
+        
+                            <div class="modal-body pb-5">
+                                <div class="widget_wrp Activity_widget">
+                                    <div class="widget_blk wb-2" >
+                                        <h3>March 17, 2022</h3>
+                                        <p>Date</p>
+                                    </div>
+                                    <div class="widget_blk wb-3" >
+                                        <h3>10:00 aM</h3>
+                                        <p>Time in</p>
+                                    </div>
+                                    <div class="widget_blk wb-4" >
+                                        <h3>10:45 aM</h3>
+                                        <p>time out</p>
+                                    </div>
+                                    <div class="widget_blk wb-5" >
+                                        <h3>00:45:40</h3>
+                                        <p>session duration</p>
+                                    </div>
+                                </div>
+                                <div class="user_Activity">
+                                    <ul>
+                                        <li>
+                                            <div class="title icon_title">
+                                                <i class="user__avater avatar_Text">
+                                                </i>
+                                                <div class="">
+                                                    <h6>Log In </h6>
+                                                    <span>Start time - 10:02 AM;  End time - 10:12 AM </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title icon_title">
+                                                <i class="user__avater avatar_Text">
+                                                </i>
+                                                <div class="">
+                                                    <h6>Switch from ISEE to SHSAT course </h6>
+                                                    <span>Start time - 10:02 AM;  End time - 10:12 AM </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title icon_title">
+                                                <i class="user__avater avatar_Text">
+                                                </i>
+                                                <div class="">
+                                                    <h6>Open Review - Practice Test 1 - Section: English Language Arts  </h6>
+                                                    <span>Start time - 10:02 AM;  End time - 10:12 AM </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title icon_title">
+                                                <i class="user__avater avatar_Text">
+                                                </i>
+                                                <div class="">
+                                                    <h6>Close Review - Practice Test 1 - Section: English Language Arts  </h6>
+                                                    <span>Start time - 10:02 AM;  End time - 10:12 AM </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="title icon_title">
+                                                <i class="user__avater avatar_Text">
+                                                </i>
+                                                <div class="">
+                                                    <h6>Switch student from Brooklyn Simmons to Leslie Simmons </h6>
+                                                    <span>Start time - 10:02 AM;  End time - 10:12 AM </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Session Details Modal End -->
+    </main>
+
+    
+    <!-- JS here --> 
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script> 
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

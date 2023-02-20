@@ -1,0 +1,272 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>User Student</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/choices.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+
+    <main>
+        
+
+
+
+        <!--Add Student Modal -->
+        <div class=" Add__Student">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content ">
+
+                <div class="modal-header">
+                    <h3 class="modal_title" id="exampleModalLabel">Adding a Student</h3>
+                    <a href="javascript:void(0)" data-bs-dismiss="modal" class="modal_close">
+                        <i class="far fa-times"></i>
+                    </a>
+                </div>
+
+                <div class="">
+                    <div class="d-flex Add__Student_wrp modal_body_bdr">
+                        <div class="nav flex-column all-steps  Add__Student_tab_btn" id="all-steps" >
+                            <button class="nav-link past step"  type="button" >
+                                <i>
+                                    <img src="assets/img/check.svg" alt="">
+                                    <span>1</span>
+                                </i>
+                                <p>
+                                    Course & Plan <br>
+                                    <span>Set Type of a Test & Membership </span>
+                                </p>
+                            </button>
+
+                            <button class="nav-link past step"  type="button" >
+                                <i>
+                                    <img src="assets/img/check.svg" alt="">
+                                    <span>2</span>
+                                </i>
+                                <p>
+                                    Account Settings <br>
+                                    <span>Setup Student Account Settings</span>
+                                </p>
+                            </button>
+                            
+                            <button class="nav-link step active"  type="button" >
+                                <i>
+                                    <img src="assets/img/check.svg" alt="">
+                                    <span>3</span>
+                                </i>
+                                <p>
+                                    Parent Information <br>
+                                    <span>Assign Or Add a Parent</span>
+                                </p>
+                            </button>
+
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    <img src="assets/img/check.svg" alt="">
+                                    <span>4</span>
+                                </i>
+                                <p>
+                                    School Information <br>
+                                    <span>Student’s School Related Info</span>
+                                </p>
+                            </button>
+
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    <img src="assets/img/check.svg" alt="">
+                                    <span>5</span>
+                                </i>
+                                <p>
+                                    Test Information <br>
+                                    <span>Set Test Info</span>
+                                </p>
+                            </button>
+                            
+                            <button class="nav-link step"  type="button" >
+                                <i>
+                                    6
+                                </i>
+                                <p>
+                                    Summary <br>
+                                    <span>Review and Confirm</span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="tab-content Add__Student_tab_content" >
+
+
+                            <div class=" tab d-block">
+                                <div class="parent_tab">
+                                    <h3 class="title text-center">Parent Information</h3>
+                                    <div class="comp__dash__wrp">
+                                        <span>Select the way of adding a parent</span>
+                                    </div>
+                                    <ul class="nav nav-pills comp__dash_parent_tab comp__dash com__dash3" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                            <button class="nav-link comp__dash_blk active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span>Assign from the base</span></button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                            <button class="nav-link comp__dash_blk" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span>Add new parent</span></button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                            <button class="nav-link comp__dash_blk" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span>Skip for now</span></button>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                <div class="parent_tab_wrp solid_bg">
+                                                    <div class="table__com parent_table adding_stu tableFixHead">
+                                                        <table class="table table-responsive-lg">
+                        
+                                                            <tbody>
+            
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="title icon_title">
+                                                                            <i class="user__avater avatar_Text">
+                                                                                <span>M</span>
+                                                                            </i>
+                                                                            <div class="">
+                                                                                <h6>Marvin Simmons</h6>
+                                                                                <span>exmplm@example.com</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="stu_avt">
+                                                                            <div class="d-flex">
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                                <i class="user__avater">
+                                                                                    <img src="assets/img/Avatar.svg" alt="">
+                                                                                </i>
+                                                                            </div>
+                                                                            <small>2 students</small>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="tb_date">
+                                                                        <p>March 17, 2022</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="tb_action">
+                                                                            <a href="#" class="text_btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Profile</a>
+                                                                            <a href="#" class="text_btn remove_btn">Remove</a>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+            
+                                                            </tbody>
+                        
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                                <div class="Add_new_parent mxw_500">
+                                                    <span class="input_title">Student Personal  Info</span>
+                                                    <div class="stu_Avatar">
+                                                        <i class="cg_avatar avatar_Text ">
+                                                            <span>M</span>
+                                                        </i>
+                                                        <div class="Upload_btn_input -chosen -chosen">
+                                                            <label for="fl-2"> 
+                                                                <input type="file" class="uploadFileHereNow" value="Select Avatar" id="fl-2">
+                                                                <small>Allowed *.jpeg, *.jpg, *.png, *.gif
+                                                                    Max size of 3.1 MB</small>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                    </div>
+
+                                                    <div class="Add_new_parent_input">
+                                                        <div class="input_blk">
+                                                            <label for="">First name</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                        <div class="input_blk">
+                                                            <label for="">Last name</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                        <div class="input_blk ">
+                                                            <label for="">Email</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                        
+                                                        <div class="input_blk ">
+                                                            <label for="">Email</label>
+                                                            <input type="text" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="input_extra">
+                                                        <span class="input_title">Password</span>
+                                                        <small>Students' password can be changed by a linked parent or by admin manually</small>
+                                                    </div>
+                                                    <div class="input_blk ">
+                                                        <label for="">Password</label>
+                                                        <input type="text" placeholder="">
+                                                        <small class="text-center">8+ characters, with min. one number, one uppercase letter and one special character</small>
+                                                    </div>
+                                                    <div class="input_blk ">
+                                                        <label for="">Repeat password</label>
+                                                        <input type="text" placeholder="">
+                                                    </div>
+                                                    <div class="input_extra">
+                                                        <a href="#" class="reset__password"><i><img src="assets/img/locksh.svg" alt=""></i> Generate Password</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                                <div class="Skip_for_now">
+                                                    <h4>You can assign or add parent later</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer modal__button" >
+                    <button type="button" class="btn btn-secondary" id="prevBtn" >Back</button>
+                    <button type="button" id="nextBtn" class="btn Submit__none  active">Next</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--Add Student Modal -->
+
+
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script> 
+        <script src="assets/js/choices.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+        <!-- <script src="assets/js/add-Student-modal.js"></script> -->
+
+    </body>
+</html>

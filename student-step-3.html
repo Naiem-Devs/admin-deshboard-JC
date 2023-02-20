@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Student Profile Step 3</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css"> 
+        <link rel="stylesheet" href="assets/css/vanilla-calendar.min.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+        <section class=" empty_bg my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="solid_bg p-0">
+                            <div class="modal-header">
+                                <h3 class="modal_title" id="exampleModalLabel">Adding a Student</h3>
+                                <a href="student_profile.html" class="modal_close">
+                                    <i class="far fa-times"></i>
+                                </a>
+                            </div>
+                            <div class="">
+                                <div class="d-flex Add__Student_wrp modal_body_bdr">
+                                    <div class="nav flex-column nav-pills Add__Student_tab_btn" >
+                                        <button class="nav-link "  >
+                                            <i>
+                                                <img src="assets/img/check.svg" alt="">
+                                            </i>
+                                            <p>
+                                                Course  Plan <br>
+                                                <span>Set Type of a Test Membership </span>
+                                            </p>
+                                        </button>
+            
+                                        <button class="nav-link "  >
+                                            <i>
+                                                <img src="assets/img/check.svg" alt="">
+                                            </i>
+                                            <p>
+                                                Application School List <br>
+                                                <span>Shools Info</span>
+                                            </p>
+                                        </button>
+                                        
+                                        <button class="nav-link active"  >
+                                            <i>
+                                                3
+                                            </i>
+                                            <p>
+                                                Test Information <br>
+                                                <span>Set Test Info</span>
+                                            </p>
+                                        </button>
+            
+                                        <button class="nav-link"  >
+                                            <i>
+                                                4
+                                            </i>
+                                            <p>
+                                                Summary <br>
+                                                <span>Review and Confirm</span>
+                                            </p>
+                                        </button>
+                                    </div>
+                                    <div class="tab-content Add__Student_tab_content" >
+            
+                                        <div class="tab-pane fade show active"  role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                            <div class="test-tab">
+                                                <h3 class="title">Test Information</h3>
+                                                
+                                                <span class="title">Registered Official Test Date</span>
+                                                <div class="Test_radio_btn">
+                                                    <div class="Test_radio_blk">
+                                                        <label class="form-control-Radio">
+                                                            <input type="radio" name="radio" checked="" id="radio">
+                                                            Have registered
+                                                        </label>
+                                                        <div class="input_blk Test_info_cal">
+                                                            <a href="#" class="cal_btn">Press to choose your offical test date <i class="fal fa-chevron-down"></i></a>
+                                                            <div id="calendar"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <label class="form-control-Radio">
+                                                            <input type="radio" name="radio">
+                                                            Have not registered yet
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer modal__button">
+                                <a href="student-step-2.html" class="btn btn-secondary">Back</a>
+                                <a href="student-step-4.html"  class="btn  active">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- <script src="assets/js/jquery.nice-select.min.js"></script>  -->
+        <script src="assets/js/vanilla-calendar.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+        <script>
+            const calendar = new VanillaCalendar('#calendar');
+            calendar.init();
+            $('.cal_btn').click(function() {
+                $('.Test_info_cal').toggleClass('show_cal').fadeIn()
+                // $('.Test_info_cal').toggleClass('show_cal')
+            })
+        </script>
+    </body>
+</html>
